@@ -1,4 +1,29 @@
 {
-  "vus": 5,
-  "duration": "10s"
+  "scenarios": {
+    "example_scenario_1": {
+      "executor": "shared-iterations",
+      "startTime": "5s",
+      "gracefulStop": "5s",
+      "env": { "EXAMPLEVAR": "testing" },
+      "tags": { "example_tag": "testing" },
+      "vus": 10,
+      "iterations": 200,
+      "maxDuration": "10s",
+      "exec": "slow"
+    },
+    "example_scenario_2": {
+      "executor": "per-vu-iterations",
+      "vus": "5",
+      "iterations": "30",
+      "exec": "slow"
+    },
+    "example_scenario_3": {
+      "executor": "constant-arrival-rate",
+      "rate": 200,
+      "duration": "10s",
+      "preAllocatedVUs": 50,
+      "maxVUs": 100,
+      "exec": "fast"
+    }
+  }
 }
