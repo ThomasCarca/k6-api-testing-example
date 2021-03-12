@@ -4,8 +4,12 @@
       "executor": "shared-iterations",
       "startTime": "5s",
       "gracefulStop": "5s",
-      "env": { "EXAMPLEVAR": "testing" },
-      "tags": { "example_tag": "testing" },
+      "env": {
+        "EXAMPLEVAR": "testing"
+      },
+      "tags": {
+        "example_tag": "testing"
+      },
       "vus": 10,
       "iterations": 200,
       "maxDuration": "10s",
@@ -25,5 +29,19 @@
       "maxVUs": 100,
       "exec": "fast"
     }
+  },
+  "thresholds": {
+    "http_req_duration{type:fast_endpoint}": [
+      {
+        "threshold": "p(95) < 80",
+        "abortOnFail": true
+      }
+    ],
+    "http_req_duration{type:slow_endpoint}": [
+      {
+        "threshold": "p(90) < 265",
+        "abortOnFail": false
+      }
+    ]
   }
 }

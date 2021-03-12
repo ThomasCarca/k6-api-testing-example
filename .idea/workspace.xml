@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="522cd327-43e4-4803-ae1d-235ffe92bc2a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k6/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/k6/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/k6/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/k6/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,15 +80,26 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="188" y="91" key="MergeDialog" timestamp="1615555175111">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="188" y="91" key="MergeDialog/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615555175111" />
-    <state x="592" y="293" key="MultipleFileMergeDialog" timestamp="1615555175122">
+    <state x="592" y="293" key="MultipleFileMergeDialog" timestamp="1615555542977">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="592" y="293" key="MultipleFileMergeDialog/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615555175122" />
+    <state x="592" y="293" key="MultipleFileMergeDialog/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615555542977" />
     <state x="757" y="462" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1615553890644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
